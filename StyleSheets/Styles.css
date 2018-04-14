@@ -1,0 +1,100 @@
+body{
+    background: #3c3c3c;
+}
+
+button{
+background:#3c3c3c;
+color:#fff;
+border:none;
+position:relative;
+font-size:1.6em;
+padding:0 2em;
+cursor:pointer;
+transition:800ms ease all;
+outline:none;
+}
+button:hover{
+background:#ffa620;
+color:#3c3c3c;
+}
+button:before,button:after{
+content:'';
+position:absolute;
+top:0;
+right:0;
+height:2px;
+width:0;
+background: #3c3c3c;
+transition:400ms ease all;
+}
+button:after{
+right:inherit;
+top:inherit;
+left:0;
+bottom:0;
+}
+button:hover:before,button:hover:after{
+width:100%;
+transition:800ms ease all;
+}
+
+th{
+    font-weight: bold;
+}
+
+table{
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+}
+
+select{
+    min-height: 32px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+table, tr, th, td, select{
+    color: white;
+    height: 14px;
+    border: 1px solid #080808;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+    background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+}
+
+input{
+    width: 150px;
+    height: 12px;
+    color: white;
+    border: none;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(top, #3c3c3c 0%, #222222 100%);
+    background: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
+}
+
+th{
+    background: linear-gradient(top, #ffa620 0%, #222222 100%);
+    background: -webkit-linear-gradient(top, #ffa620 0%, #b87717  100%);
+}
+
+td:hover{
+    background: orange;
+}
+
+h1{
+    color: white;
+}
+
+option{
+    background: #3c3c3c;
+    color: white;
+    width: 50px;
+}
+
